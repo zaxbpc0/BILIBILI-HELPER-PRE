@@ -1,16 +1,7 @@
 <div align="center">
 <h1 align="center">
-bilibili-helper-pro
+BILIBILI-HELPER
 </h1>
-
-[![GitHub stars](https://img.shields.io/github/stars/gitldy1013/bilibili-helper-pro?style=flat-square)](https://github.com/gitldy1013/bilibili-helper-pro/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/gitldy1013/bilibili-helper-pro?style=flat-square)](https://github.com/gitldy1013/bilibili-helper-pro/network)
-[![GitHub issues](https://img.shields.io/github/issues/gitldy1013/bilibili-helper-pro?style=flat-square)](https://github.com/gitldy1013/bilibili-helper-pro/issues)
-[![GitHub license](https://img.shields.io/github/license/gitldy1013/bilibili-helper-pro?style=flat-square)](https://github.com/gitldy1013/bilibili-helper-pro/blob/main/LICENSE) 
-[![GitHub All Releases](https://img.shields.io/github/downloads/gitldy1013/bilibili-helper-pro/total?style=flat-square)](https://github.com/gitldy1013/bilibili-helper-pro/releases)
-[![GitHub contributors](https://img.shields.io/github/contributors/gitldy1013/bilibili-helper-pro?style=flat-square)](https://github.com/gitldy1013/bilibili-helper-pro/graphs/contributors)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gitldy1013/bilibili-helper-pro?style=flat-square)
-
 </div>
 
 # 工具简介
@@ -75,7 +66,7 @@ bilibili-helper-pro
 - 按 F12 打开 「开发者工具」 找到 应用程序/Application -> 存储 -> Cookies
 - 找到 `bili_jct` `SESSDATA` `DEDEUSERID` 三项，并复制值，创建对应的 GitHub Secrets。
 
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/gitldy1013/bilibili-helper-pro@main/docs/IMG/20201012001307.png" alt="app"></p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zaxbpc0/BILIBILI-HELPER-PRE@main/docs/IMG/20201012001307.png" alt="app"></p>
 
 3. **点击项目 Settings -> Secrets -> New Secrets 添加以下 3 个 Secrets。**
 
@@ -85,13 +76,13 @@ bilibili-helper-pro
 | SESSDATA   | 从 Cookie 中获取 |
 | BILI_JCT   | 从 Cookie 中获取 |
 
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/gitldy1013/bilibili-helper-pro@main/docs/IMG/20201013210000.png" alt="app"></p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zaxbpc0/BILIBILI-HELPER-PRE@main/docs/IMG/20201013210000.png" alt="app"></p>
 
 4. **开启 Actions 并触发每日自动执行**
 
 **Github Actions 默认处于关闭状态，还大家请手动开启 Actions ，执行一次工作流，验证是否可以正常工作。**
 
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/gitldy1013/bilibili-helper-pro@main/docs/IMG/workflow_dispatch.png" alt="app"></p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zaxbpc0/BILIBILI-HELPER-PRE@main/docs/IMG/workflow_dispatch.png" alt="app"></p>
 
 **Fork 仓库后，GitHub 默认不自动执行 Actions 任务，请修改 `.github/trigger.json` 文件,将 `trigger` 的值改为 `1`，这样每天就会自动执行定时任务了。**
 
@@ -155,17 +146,17 @@ userAgent可选参数列表
 
 1. 在linux shell环境执行以下命令，并按照提示输入SESSDATA，DEDEUSERID，BILI_JCT，SCKEY四个参数
 ```
-wget https://raw.githubusercontent.com/gitldy1013/bilibili-helper-pro/main/setup.sh && chmod +x ./setup.sh && sudo ./setup.sh
+wget https://raw.githubusercontent.com/zaxbpc0/BILIBILI-HELPER-PRE/main/setup.sh && chmod +x ./setup.sh && sudo ./setup.sh
 ```
 
-**Linux用户使用jar包时如果需要自定义配置，请[点此下载](https://github.com/gitldy1013/bilibili-helper-pro/blob/main/src/main/resources/config.json)配置文件，将其到和jar包同一目录即可，执行时优先加载外部配置文件**
+**Linux用户使用jar包时如果需要自定义配置，请[点此下载](https://github.com/zaxbpc0/BILIBILI-HELPER-PRE/blob/main/src/main/resources/config.json)配置文件，将其到和jar包同一目录即可，执行时优先加载外部配置文件**
 
 ```
 bilibili-helper-pro.jar
 config.json
 ```
 
-除此之外，也可以通过点击 [bilibili-helper-pro/release](https://github.com/gitldy1013/bilibili-helper-pro/releases)，下载已发布的版本，解压后将jar包手动上传到Linux服务器，使用crontab完成定时执行。
+除此之外，也可以通过点击 [bilibili-helper-pro/release](https://github.com/zaxbpc0/BILIBILI-HELPER-PRE/releases)，下载已发布的版本，解压后将jar包手动上传到Linux服务器，使用crontab完成定时执行。
 
 **命令格式解释：**
 
@@ -190,19 +181,19 @@ config.json
 
 ### 运行效果
 
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/gitldy1013/bilibili-helper-pro@main/docs/IMG/liunxImg.png" alt="app"></p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zaxbpc0/BILIBILI-HELPER-PRE@main/docs/IMG/liunxImg.png" alt="app"></p>
 
 ## 三、使用 Windows10
 
 ### 步骤
 
-1. 点击 [bilibili-helper-pro/release](https://github.com/gitldy1013/bilibili-helper-pro/releases)，下载已发布的版本。解压，在解压后的目录打开 `Powershell` 需要装有 Java 运行环境。
+1. 点击 [bilibili-helper-pro/release](https://github.com/zaxbpc0/BILIBILI-HELPER-PRE/releases)，下载已发布的版本。解压，在解压后的目录打开 `Powershell` 需要装有 Java 运行环境。
    
-**Windows用户使用jar包时如果需要自定义配置，请[点此下载](https://github.com/gitldy1013/bilibili-helper-pro/blob/main/src/main/resources/config.json)配置文件，将其到和jar包同一目录即可，执行时优先加载外部配置文件**
+**Windows用户使用jar包时如果需要自定义配置，请[点此下载](https://github.com/zaxbpc0/BILIBILI-HELPER-PRE/blob/main/src/main/resources/config.json)配置文件，将其到和jar包同一目录即可，执行时优先加载外部配置文件**
 
 1. 执行 `java -jar /home/bilibili-helper-pro.jar DEDEUSERID SESSDATA BILI_JCT `
 
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/gitldy1013/bilibili-helper-pro@main/docs/IMG/powershell.png" alt="app"></p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zaxbpc0/BILIBILI-HELPER-PRE@main/docs/IMG/powershell.png" alt="app"></p>
 
 # 微信订阅通知
 
@@ -211,9 +202,9 @@ config.json
 1. 前往 [sc.ftqq.com](http://sc.ftqq.com/3.version) 点击登入，创建账号（建议使用 GitHub 登录）。
 2. 点击点[发送消息](http://sc.ftqq.com/?c=code) ，生成一个 Key。将其增加到 Github Secrets 中，变量名为 `SERVERPUSHKEY`
 3. [绑定微信账号](http://sc.ftqq.com/?c=wechat&a=bind) ，开启微信推送。
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/gitldy1013/bilibili-helper-pro@main/docs/IMG/serverpush.png" alt="app"></p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zaxbpc0/BILIBILI-HELPER-PRE@main/docs/IMG/serverpush.png" alt="app"></p>
 4. 推送效果展示
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/gitldy1013/bilibili-helper-pro@main/docs/IMG/wechatMsgPush.png" alt="app"></p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zaxbpc0/BILIBILI-HELPER-PRE@main/docs/IMG/wechatMsgPush.png" alt="app"></p>
 
 # 快速更新
 
@@ -252,7 +243,7 @@ jobs:
     - name: Load upstream commits
       run: |
         git update-index --assume-unchanged ./src/main/resources/config.json
-        git pull https://github.com/gitldy1013/bilibili-helper-pro.git --log --no-commit
+        git pull https://github.com/zaxbpc0/BILIBILI-HELPER-PRE.git --log --no-commit
     - name: Apply commit changes
       run: |
         if [ -f ./.git/MERGE_MSG ]; then
@@ -288,7 +279,7 @@ upstream        https://github.com/CodFrm/cxmooc-tools.git (push)
 2. fork 仓库后，将你的仓库拉到本地，如果没有源头仓库，则添加源头仓库
 
 ```bash
-git remote add upstream https://github.com/gitldy1013/bilibili-helper-pro.git
+git remote add upstream https://github.com/zaxbpc0/BILIBILI-HELPER-PRE.git
 ```
 
 3. 更新上游仓库 main 分支的代码（pull 操作实际上是 `fetch+merge`）
@@ -311,9 +302,6 @@ git push origin main
 2. 本工具不会记录任何执行过程中来自b站的数据信息，也不会上传到任何服务器上。（例如av号，bv号，用户uid等）。
 3. 本工具执行过程中产生的日志，仅会在使用者自行配置推送渠道后进行推送。日志中不包含任何用户敏感信息。
 
-# 应用趋势
-
-<p align="center"><img src="https://starchart.cc/gitldy1013/bilibili-helper-pro.svg" alt="app"></p>
 
 # API 参考列表
 
