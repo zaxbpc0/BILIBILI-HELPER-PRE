@@ -17,6 +17,7 @@ function download(){
   command -v unzip >/dev/null 2>&1 || installUnzip
   unzip -o "/tmp/BILIBILI-HELPER.zip" -d "${HOME}/BILIBILI-HELPER"
   mv "${HOME}/BILIBILI-HELPER/BILIBILI-HELPER-v${1}.jar" "${HOME}/BILIBILI-HELPER/BILIBILI-HELPER.jar" -f
+  ls -al
 }
 
 function setCron(){
