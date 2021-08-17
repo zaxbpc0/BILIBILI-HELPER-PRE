@@ -27,7 +27,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ./jar/
-          key: ${{ runner.os }}-BILIBILI-HELPER-PRE-${{ steps.set-version.outputs.version }}
+          key: ${{ runner.os }}-BILIBILI-HELPER-${{ steps.set-version.outputs.version }}
       - name: Download Jar
         if: steps.cache-jar.outputs.cache-hit != 'true'
         run: chmod +x setup.sh && bash setup.sh
