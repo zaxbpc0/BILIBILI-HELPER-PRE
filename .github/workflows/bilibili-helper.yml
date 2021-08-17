@@ -40,4 +40,4 @@ jobs:
           TZ: Asia/Shanghai
           # 时区配置为Asia/Shanghai
         run:
-          java -jar ./jar/BILIBILI-HELPER.jar ${DEDEUSERID} ${SESSDATA} ${BILI_JCT} ${SERVERPUSHKEY}
+          java -jar ./BILIBILI-HELPER/BILIBILI-HELPER.jar ${DEDEUSERID} ${SESSDATA} ${BILI_JCT} ${SERVERPUSHKEY}
