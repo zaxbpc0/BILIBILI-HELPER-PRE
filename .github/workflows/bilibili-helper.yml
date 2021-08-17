@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Set Version
         id: set-version
-        run: echo "::set-output name=version::$(wget -qO- -t1 -T2 "https://api.github.com/repos/JunzhouLiu/BILIBILI-HELPER/releases/latest" | grep "tag_name" | head -n 1 | awk -F ":" '{print $2}' | sed 's/\"//g;s/,//g;s/ //g;s/V//g')"
+        run: echo "::set-output name=version::$(wget -qO- -t1 -T2 "https://api.github.com/repos/JunzhouLiu/BILIBILI-HELPER-PRE/releases/latest" | grep "tag_name" | head -n 1 | awk -F ":" '{print $2}' | sed 's/\"//g;s/,//g;s/ //g;s/V//g')"
       - name: Set up JDK 1.8
         uses: actions/setup-java@v1
         with:
