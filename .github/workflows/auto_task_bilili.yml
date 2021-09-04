@@ -18,6 +18,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: IP
+        run: sudo curl ifconfig.me
+      - name: Set time zone
+        run: sudo timedatectl set-timezone 'Asia/Shanghai'
       - uses: actions/checkout@v2
       - name: Set up JDK 1.8
         uses: actions/setup-java@v1
@@ -37,6 +41,5 @@ jobs:
           SESSDATA: ${{ secrets.SESSDATA }}
           SERVERPUSHKEY: ${{ secrets.SERVERPUSHKEY }}
           TZ: Asia/Shanghai
-          # 时区配置为Asia/Shanghai
         run:
           mvn compile exec:java -Dexec.mainClass="top.misec.BiliMain" -Dexec.args="${DEDEUSERID} ${SESSDATA} ${BILI_JCT} ${SERVERPUSHKEY}"
