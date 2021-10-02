@@ -1,13 +1,13 @@
 {
   "taskIntervalTime": 10,
   "numberOfCoins": 1,
-  "reserveCoins": 25,
-  "selectLike": 0,
+  "reserveCoins": 20,
+  "selectLike": 1,
   "monthEndAutoCharge": true,
   "giveGift": true,
   "upLive": "0",
   "chargeForLove": "0",
-  "devicePlatform": "pc",
+  "devicePlatform": "android",
   "coinAddPriority": 1,
   "skipDailyTask": false,
   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69"
