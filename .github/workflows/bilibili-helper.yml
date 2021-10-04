@@ -48,6 +48,7 @@ jobs:
 #          SERVERPUSHKEY: ${{ secrets.SERVERPUSHKEY }}
           TZ: Asia/Shanghai
           # 时区配置为Asia/Shanghai
-        run:
+        run: |
            bash setup.sh
+           cd ${HOME}/BILIBILI-HELPER
            java -jar BILIBILI-HELPER.jar ${BCONFIG}
