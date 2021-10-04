@@ -46,6 +46,5 @@ download $version
 #setCron "${DEDEUSERID}" "${SESSDATA}" "${BILI_JCT}" "${SCKEY}"
 command -v java >/dev/null 2>&1 || installJava
 java -jar BILIBILI-HELPER.jar config.json
-vim config.json
 
 echo "执行完成"
