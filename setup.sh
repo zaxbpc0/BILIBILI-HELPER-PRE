@@ -19,7 +19,7 @@ function download(){
   unzip -o "/tmp/BILIBILI-HELPER.zip" -d "${HOME}/BILIBILI-HELPER"
   mv "${HOME}/BILIBILI-HELPER/BILIBILI-HELPER-v${1}.jar" "${HOME}/BILIBILI-HELPER/BILIBILI-HELPER.jar" -f
   mv "/tmp/config.json" "${HOME}/BILIBILI-HELPER/config.json" -f
-  ls -al
+  cd ${HOME}/BILIBILI-HELPER; ls -al
 }
 
 function setCron(){
@@ -37,13 +37,13 @@ function setCron(){
   fi
 }
 
-read -p "请粘贴SESSDATA并回车:" SESSDATA
-read -p "请粘贴DEDEUSERID并回车:" DEDEUSERID
-read -p "请粘贴BILI_JCT并回车:" BILI_JCT
-read -p "请粘贴SCKEY并回车:" SCKEY
+#read -p "请粘贴SESSDATA并回车:" SESSDATA
+#read -p "请粘贴DEDEUSERID并回车:" DEDEUSERID
+#read -p "请粘贴BILI_JCT并回车:" BILI_JCT
+#read -p "请粘贴SCKEY并回车:" SCKEY
 
 download $version
-setCron "${DEDEUSERID}" "${SESSDATA}" "${BILI_JCT}" "${SCKEY}"
+#setCron "${DEDEUSERID}" "${SESSDATA}" "${BILI_JCT}" "${SCKEY}"
 command -v java >/dev/null 2>&1 || installJava
 
 echo "执行完成"
