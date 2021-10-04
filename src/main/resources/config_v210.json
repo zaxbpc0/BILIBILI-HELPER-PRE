@@ -3,7 +3,7 @@
     "biliCookies": "b_ut=-1; i-wanna-go-back=-1; buvid3=5327694B-73D0-0969-EC99-CFE98DEC6AFE77556infoc; blackside_state=1; rpdid=|(u)mmR|Rumk0J'uYJJ|mYu)u; CURRENT_QUALITY=32; fingerprint=b4669851ceeb63c88ec557a345445eb8; buvid_fp=5327694B-73D0-0969-EC99-CFE98DEC6AFE77556infoc; buvid_fp_plain=5327694B-73D0-0969-EC99-CFE98DEC6AFE77556infoc; _uuid=CBF1D488-1962-95B1-F868-6D5AB1DC477843838infoc; bp_video_offset_365205330=577636594095867015; fingerprint3=ccdbc168a54aad53f6d8042a6a48a9ab; fingerprint_s=8b9601409b2b8cc844c789bdcb9745ea; innersign=0; bfe_id=5db70a86bd1cbe8a88817507134f7bb5; CURRENT_BLACKGAP=0; CURRENT_FNVAL=80; SESSDATA=b1c7ae3f%2C1648891228%2C3ec58%2Aa1; bili_jct=d0b99017466a429fc3f003a203354d12; DedeUserID=365205330; DedeUserID__ckMd5=3b29c75d53f152da; sid=9owykmka"
   },
   "taskConfig": {
-    "skipDailyTask": true,
+    "skipDailyTask": false,
     "matchGame": true,
     "showHandModel": true,
     "predictNumberOfCoins": 1,
