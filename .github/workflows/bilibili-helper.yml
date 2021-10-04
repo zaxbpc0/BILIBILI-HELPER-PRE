@@ -49,4 +49,4 @@ jobs:
           TZ: Asia/Shanghai
           # 时区配置为Asia/Shanghai
         run:
-          java -jar ${HOME}/BILIBILI-HELPER/BILIBILI-HELPER.jar ${HOME}/BILIBILI-HELPER/config.json
+          java -jar ${HOME}/BILIBILI-HELPER/BILIBILI-HELPER.jar config.json
