@@ -42,7 +42,7 @@ jobs:
         run: chmod +x setup.sh
       - name: Run BILIBILI-HELPER
         env:
-#          BILI_JCT: ${{ secrets.BILI_JCT }}
+          BCONFIG: ${{ CONFIG }}
 #          DEDEUSERID: ${{ secrets.DEDEUSERID }}
 #          SESSDATA: ${{ secrets.SESSDATA }}
 #          SERVERPUSHKEY: ${{ secrets.SERVERPUSHKEY }}
@@ -50,4 +50,4 @@ jobs:
           # 时区配置为Asia/Shanghai
         run:
            bash setup.sh
-#          java -jar /home/runner/BILIBILI-HELPER/BILIBILI-HELPER.jar config.json
+           java -jar BILIBILI-HELPER.jar ${BCONFIG}
