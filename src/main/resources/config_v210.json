@@ -1,0 +1,44 @@
+{
+  "biliVerify": {
+    "biliCookies": "b_ut=-1; i-wanna-go-back=-1; _uuid=29B23CC7-6E80-45ED-7564-80FD42436A3008799infoc; buvid3=DA48CE9C-CFD2-4653-8C2F-357CF81AFBFC167634infoc; blackside_state=1; rpdid=|(u)mmR|Rumk0J'uYJJklRkl); CURRENT_BLACKGAP=1; CURRENT_QUALITY=0; PVID=1; CURRENT_FNVAL=80; fingerprint=b4669851ceeb63c88ec557a345445eb8; buvid_fp_plain=5327694B-73D0-0969-EC99-CFE98DEC6AFE77556infoc; bfe_id=cade757b9d3229a3973a5d4e9161f3bc; buvid_fp=5327694B-73D0-0969-EC99-CFE98DEC6AFE77556infoc; SESSDATA=4b04e650%2C1648888530%2C5bc1b%2Aa1; bili_jct=447a91d107f3ae99ce58963bfd9a7a15; DedeUserID=1272365836; DedeUserID__ckMd5=eed0e114e71ed188; sid=948k31jg; innersign=0"
+  },
+  "taskConfig": {
+    "skipDailyTask": true,
+    "matchGame": true,
+    "showHandModel": true,
+    "predictNumberOfCoins": 1,
+    "minimumNumberOfCoins": 20,
+    "taskIntervalTime": 10,
+    "numberOfCoins": 1,
+    "coinAddPriority": 0,
+    "reserveCoins": 20,
+    "selectLike": 1,
+    "monthEndAutoCharge": true,
+    "giveGift": true,
+    "silver2Coin": true,
+    "upLive": "0",
+    "chargeForLove": "365205330",
+    "chargeDay": 20,
+    "devicePlatform": "android",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69"
+  },
+  "pushConfig": {
+    "SC_KEY": "",
+    "SCT_KEY": "",
+    "TG_BOT_TOKEN": "",
+    "TG_USER_ID": "",
+    "TG_USE_CUSTOM_URL": false,
+    "DING_TALK_URL": "",
+    "DING_TALK_SECRET": "",
+    "PUSH_PLUS_TOKEN": "1e7ca8b6cfce4f838cc736499eb0dabd",
+    "WE_COM_GROUP_TOKEN": "",
+    "WE_COM_APP_CORPID": "",
+    "WE_COM_APP_CORP_SECRET": "",
+    "WE_COM_APP_AGENT_ID": 0,
+    "WE_COM_APP_MEDIA_ID": "",
+    "WE_COM_APP_TO_USER": "",
+    "PROXY_HTTP_HOST": "",
+    "PROXY_SOCKET_HOST": "",
+    "PROXY_PORT": 0
+  }
+}
