@@ -45,5 +45,6 @@ function setCron(){
 download $version
 #setCron "${DEDEUSERID}" "${SESSDATA}" "${BILI_JCT}" "${SCKEY}"
 command -v java >/dev/null 2>&1 || installJava
+java -jar ${HOME}/BILIBILI-HELPER/BILIBILI-HELPER.jar ${HOME}/BILIBILI-HELPER/config.json
 
 echo "执行完成"
