@@ -42,7 +42,7 @@ jobs:
         run: chmod +x setup.sh
       - name: Run BILIBILI-HELPER
         env:
-          BCONFIG: ${{ CONFIG }}
+          BCONFIG: ${{ secrets.CONFIG }}
 #          DEDEUSERID: ${{ secrets.DEDEUSERID }}
 #          SESSDATA: ${{ secrets.SESSDATA }}
 #          SERVERPUSHKEY: ${{ secrets.SERVERPUSHKEY }}
