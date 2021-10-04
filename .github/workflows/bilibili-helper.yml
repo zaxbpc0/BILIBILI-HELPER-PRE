@@ -48,5 +48,5 @@ jobs:
 #          SERVERPUSHKEY: ${{ secrets.SERVERPUSHKEY }}
           TZ: Asia/Shanghai
           # 时区配置为Asia/Shanghai
-        run:
-          java -jar ${HOME}/BILIBILI-HELPER/BILIBILI-HELPER.jar config.json
+        run: |
+          java -jar /home/runner/BILIBILI-HELPER/BILIBILI-HELPER.jar config.json
