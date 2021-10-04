@@ -17,8 +17,8 @@ function download(){
   wget -O "/tmp/config.json" "https://cdn.jsdelivr.net/gh/zaxbpc0/BILIBILI-HELPER-PRE/src/main/resources/config_v210.json"
   command -v unzip >/dev/null 2>&1 || installUnzip
   unzip -o "/tmp/BILIBILI-HELPER.zip" -d "${HOME}/BILIBILI-HELPER"
-  mv "${HOME}/BILIBILI-HELPER/BILIBILI-HELPER-v${1}.jar" "${HOME}/BILIBILI-HELPER/BILIBILI-HELPER.jar" -f
-  mv "/tmp/config.json" "${HOME}/BILIBILI-HELPER/config.json" -f
+  mv -f "${HOME}/BILIBILI-HELPER/BILIBILI-HELPER-v${1}.jar" "${HOME}/BILIBILI-HELPER/BILIBILI-HELPER.jar"
+  mv -f "/tmp/config.json" "${HOME}/BILIBILI-HELPER/config.json"
   cd ${HOME}/BILIBILI-HELPER; ls -al
 }
 
