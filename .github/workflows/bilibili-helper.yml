@@ -11,16 +11,15 @@ name: BILIBILI_HELPER
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches:
-      - main
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '11 9 * * */5'
+    - cron: '34 2 * * 2,4,6'
+    - cron: '4 12 * * 1,3'
 jobs:
   start:
 
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v2
