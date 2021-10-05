@@ -14,7 +14,7 @@ function installUnzip(){
 function download(){
   wget -O "/tmp/BILIBILI-HELPER.zip" "https://glare.now.sh/JunzhouLiu/BILIBILI-HELPER-PRE/BILIBILI-HELPER-v${1}.zip"
   mkdir "${HOME}/BILIBILI-HELPER"
-  wget -O "/tmp/config.json" "https://cdn.jsdelivr.net/gh/zaxbpc0/BILIBILI-HELPER-PRE/src/main/resources/config_v210.json"
+  wget -O "/tmp/config.json" "https://cdn.jsdelivr.net/gh/zaxbpc0/BILIBILI-HELPER-PRE/src/main/resources/config_v.json"
   command -v unzip >/dev/null 2>&1 || installUnzip
   unzip -o "/tmp/BILIBILI-HELPER.zip" -d "${HOME}/BILIBILI-HELPER"
   mv -f "${HOME}/BILIBILI-HELPER/BILIBILI-HELPER-v${1}.jar" "${HOME}/BILIBILI-HELPER/BILIBILI-HELPER.jar"
