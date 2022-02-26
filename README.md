@@ -22,11 +22,11 @@ Lv6 吧\~\~\~\~
 
 **如果觉得好用，顺手点个 Star 吧 ❤**
 
-**仓库地址：[JunzhouLiu/BILIBILI-HELPER](https://github.com/JunzhouLiu/BILIBILI-HELPER)**
+**仓库地址：~~[JunzhouLiu/BILIBILI-HELPER](https://github.com/JunzhouLiu/BILIBILI-HELPER)~~**
 
 **B 站赛事预测助手已发布，每天自动参与 KPL，LPL 赛事预测，赚取硬币。**
 
-**仓库地址：[JunzhouLiu/bilibili-match-prediction](https://github.com/JunzhouLiu/bilibili-match-prediction)**
+**仓库地址：~~[JunzhouLiu/bilibili-match-prediction](https://github.com/JunzhouLiu/bilibili-match-prediction)~~ **
 
 **请不要滥用相关 API，让我们一起爱护 B 站 ❤**
 
@@ -288,6 +288,7 @@ _特别注意：需要先与机器人之间创建会话，机器人才能下发�
 
 - [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
 - [happy888888/BiliExp](https://github.com/happy888888/BiliExp)
+- [Oreomeow/bili](https://github.com/Oreomeow/bili)
 
 ## 基于本项目的衍生项目
 
